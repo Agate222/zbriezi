@@ -6,9 +6,11 @@
     <meta name="keywords" content="zoo, Brieži, Latvija, Latvia, Stopiņu novads">
     <meta name="author" content="Agate Utane">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="pictures/icon.jpg">
     <title>Piemājas Zoo BRIEŽI</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Paytone+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   </head>
   <header>
     <nav>
@@ -26,41 +28,53 @@
     </nav>
   </header>
   <body>
-    <h1>Sveicināti piemājas zoo BRIEŽI!</h1>
-    <p>Piemājas zoo tika dibināts 2013.gadā.</p>
+    <div class="about">
+      <h1>Sveicināti piemājas zoo BRIEŽI!</h1>
+      <p>Piemājas zoo tika dibināts 2013.gadā. Piedāvajam Jums pavadīt lielisku dienu, kopā ar  ģimeni un draugiem apmeklējot piemājas zoodārzu pavisam netālu no  Rīgas. Šeit sastopami daudz un dažādi dekoratīvie putni, tītari, pīles, fazāni, pāvi un pat runājoša žagata, starp tiem dzīvo jūrascūciņas un truši. No četrkājainajiem draugiem te var sastapt Holandes pundurkaziņas, Haidšnukes aitas, Šetlandes ponijus, ēzeļu ģimeni, vāverēnus un jenotpuiku Bārniju. Zoo palīdz sargāt zosu bariņš un Peruāņu pundursivēns – Pigis. No 2015. gada Briežos dzīvo arī dambrieži un senākais pasaulē briedis Munžaks.</p>
+    </div>
     <div class="slideshow-container">
       <div class="mySlides fade">
-        <div class="numbertext">1/4</div>
-        <img src="pictures/agate/image1.JPG" alt="peacock" style="width:100%">
-        <div class="text">Foto by Agate Utāne</div>
-      </div>
+              <div class="numbertext">1/4</div>
+              <img src="pictures/agate/image1.JPG" alt="peacock" style="width:80%">
+              <div class="text">Foto by Agate Utāne</div>
+            </div>
       <div class="mySlides fade">
-        <div class="numbertext">2/4</div>
-        <img src="pictures/agate/image2.JPG" alt="rooster" style="width:100%">
-        <div class="text">Foto by Agate Utāne</div>
-      </div>
+              <div class="numbertext">2/4</div>
+              <img src="pictures/agate/image2.JPG" alt="rooster" style="width:80%">
+              <div class="text">Foto by Agate Utāne</div>
+            </div>
       <div class="mySlides fade">
-        <div class="numbertext">3/4</div>
-        <img src="pictures/agate/image3.JPG" alt="deer1" style="width:100%">
-        <div class="text">Foto by Agate Utāne</div>
-      </div>
+              <div class="numbertext">3/4</div>
+              <img src="pictures/agate/image3.JPG" alt="deer1" style="width:80%">
+              <div class="text">Foto by Agate Utāne</div>
+            </div>
       <div class="mySlides fade">
-        <div class="numbertext">4/4</div>
-        <img src="pictures/agate/image4.JPG" alt="deer2" style="width:100%">
-        <div class="text">Foto by Agate Utāne</div>
-      </div>
+              <div class="numbertext">4/4</div>
+              <img src="pictures/agate/image4.JPG" alt="deer2" style="width:80%">
+              <div class="text">Foto by Agate Utāne</div>
+            </div>
       <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
       <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
-    <br>
     <div style="text-align:center">
       <span class="dot" onclick="currentSlide(1)"></span>
       <span class="dot" onclick="currentSlide(2)"></span>
       <span class="dot" onclick="currentSlide(3)"></span>
       <span class="dot" onclick="currentSlide(4)"></span>
     </div>
-    <script src="scripts.js"></script>
+  <script src="scripts.js"></script>
   </body>
   <footer>
+    <table class="footerinfo">
+      <tbody>
+        <tr>
+          <th id="address" style="width: 33%">Piemājas zoo "Brieži"<br>
+            Vālodzes, Stopiņu novads<br>
+            LV-2130</th>
+          <th id="phone" style="width: 33%">+371 22005519</th>
+          <th id="social" style="width: 33%">Seko mums F</th>
+        </tr>
+      </tbody>
+    </table>
   </footer>
 </html>
