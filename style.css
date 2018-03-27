@@ -35,7 +35,29 @@ nav a.navigation.active {
   background-color: rgba(0,36,0,1);
   color: rgba(255,255,1,1);
 }
-
+@media only screen and (max-width: 300px) {
+  nav a.navigation {
+    font-size: 12px;
+    text-align: center;
+    display: block;
+    padding: 2px 3px;
+  }
+  nav a.navigation:hover {
+    font-size: 13px;
+  }
+  img.logo {
+    max-height: 50px;
+  }
+  img.lang {
+    max-height: 10px;
+    text-align: center;
+    position: relative;
+    top: -195px;
+  }
+  nav {
+    height: 200px;
+  }
+}
 /*style for photo slideshow in index page*/
 * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
