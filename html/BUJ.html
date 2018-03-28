@@ -28,6 +28,34 @@
     </nav>
   </header>
   <body>
+    <button class="accordion">1. Vai dzīvniekus drīkst barot ar līdzpaņemtu ēdienu?</button>
+    <div class="panel">
+      <p>Nē, dzīvniekus ir aizliegts barot ar līdzpaņemtu ēdienu. bla bla bla </p>
+    </div>
+    <button class="accordion">2. Vai dzīvniekus fotografet?</button>
+    <div class="panel">
+      <p>bla bla bla </p>
+    </div>
+    <button class="accordion">3. Vai dzīvniekus drīkst barot ar maizi?</button>
+    <div class="panel">
+      <p>bla bla bla </p>
+    </div>
+  <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.maxHeight){
+        panel.style.maxHeight = null;
+      } else {
+        panel.style.maxHeight = panel.scrollHeight + "px";
+      }
+    });
+    }
+  </script>
   </body>
   <footer>
     <table class="footerinfo">
