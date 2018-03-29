@@ -13,69 +13,98 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
-  <header>
-    <nav>
-      <a href="index.html"><img class="logo" src="pictures/LOGO.jpg" alt="Zoo logo" style="height:88px"></a>
-      <a class="navigation" href="html/PIEDĀVĀJUMS.html">PIEDĀVĀJUMS</a>
-      <a class="navigation" href="html/IEMĪTNIEKI.html">IEMĪTNIEKI</a>
-      <a class="navigation" href="html/GALERIJA.html">GALERIJA</a>
-      <a class="navigation" href="html/CENAS.html">CENAS</a>
-      <a class="navigation" href="html/ATSAUKSMES.html">ATSAUKSMES</a>
-      <a class="navigation" href="html/KONTAKTI.html">KONTAKTI</a>
-      <a class="navigation" href="html/BUJ.html">BUJ</a>
-      <a class="language" href="html/indexRUS.html"><img class="lang" src="pictures/languages/RUS.png" alt="Russian" style="height:20px"></a>
-      <a class="language" href="html/indexENG.html"><img class="lang" src="pictures/languages/UK.png" alt="English" style="height:20px"></a>
-      <a class="language" href="index.html"><img class="lang" src="pictures/languages/LV.png" alt="Latvian" style="height:20px"></a>
-    </nav>
-  </header>
-  <body>
-    <div class="about">
-      <h1>Sveicināti piemājas zoo BRIEŽI!</h1>
-      <p>Piemājas zoo tika dibināts 2013.gadā. Piedāvajam Jums pavadīt lielisku dienu, kopā ar  ģimeni un draugiem apmeklējot piemājas zoodārzu pavisam netālu no  Rīgas. Šeit sastopami daudz un dažādi dekoratīvie putni, tītari, pīles, fazāni, pāvi un pat runājoša žagata, starp tiem dzīvo jūrascūciņas un truši. No četrkājainajiem draugiem te var sastapt Holandes pundurkaziņas, Haidšnukes aitas, Šetlandes ponijus, ēzeļu ģimeni, vāverēnus un jenotpuiku Bārniju. Zoo palīdz sargāt zosu bariņš un Peruāņu pundursivēns – Pigis. No 2015. gada Briežos dzīvo arī dambrieži un senākais pasaulē briedis Munžaks.</p>
-    </div>
-    <div class="slideshow-container">
-      <div class="mySlides fade">
-                  <div class="numbertext">1/4</div>
-                  <img src="pictures/agate/image1.JPG" alt="peacock" style="width:80%">
-                  <div class="text">Foto by Agate Utāne</div>
-                </div>
-      <div class="mySlides fade">
-                  <div class="numbertext">2/4</div>
-                  <img src="pictures/agate/image2.JPG" alt="rooster" style="width:80%">
-                  <div class="text">Foto by Agate Utāne</div>
-                </div>
-      <div class="mySlides fade">
-                  <div class="numbertext">3/4</div>
-                  <img src="pictures/agate/image3.JPG" alt="deer1" style="width:80%">
-                  <div class="text">Foto by Agate Utāne</div>
-                </div>
-      <div class="mySlides fade">
-                  <div class="numbertext">4/4</div>
-                  <img src="pictures/agate/image4.JPG" alt="deer2" style="width:80%">
-                  <div class="text">Foto by Agate Utāne</div>
-                </div>
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    </div>
-    <div style="text-align:center">
-      <span class="dot" onclick="currentSlide(1)"></span>
-      <span class="dot" onclick="currentSlide(2)"></span>
-      <span class="dot" onclick="currentSlide(3)"></span>
-      <span class="dot" onclick="currentSlide(4)"></span>
-    </div>
-  <script src="scripts.js"></script>
-  </body>
-  <footer>
-    <table class="footerinfo">
-      <tbody>
-        <tr>
-          <th id="address" style="width: 33%">Piemājas zoo "Brieži"<br>
-            Vālodzes, Stopiņu novads<br>
-            LV-2130</th>
-          <th id="phone" style="width: 33%">+371 22005519</th>
-          <th id="social" style="width: 33%">Seko mums: <a href="https://www.facebook.com/zoobriezi/" class="fa fa-facebook"></a></th>
-        </tr>
-      </tbody>
-    </table>
-  </footer>
+  <div class="container">
+    <header>
+        <nav>
+          <a href="index.html"><img class="logo" src="pictures/LOGO.jpg" alt="Zoo logo" style="height:88px"></a>
+          <a class="navigation" href="html/PIEDĀVĀJUMS.html">PIEDĀVĀJUMS</a>
+          <a class="navigation" href="html/IEMĪTNIEKI.html">IEMĪTNIEKI</a>
+          <a class="navigation" href="html/GALERIJA.html">GALERIJA</a>
+          <a class="navigation" href="html/CENAS.html">CENAS</a>
+          <a class="navigation" href="html/ATSAUKSMES.html">ATSAUKSMES</a>
+          <a class="navigation" href="html/KONTAKTI.html">KONTAKTI</a>
+          <a class="navigation" href="html/BUJ.html">BUJ</a>
+          <a class="language" href="html/indexRUS.html"><img class="lang" src="pictures/languages/RUS.png" alt="Russian" style="height:20px"></a>
+          <a class="language" href="html/indexENG.html"><img class="lang" src="pictures/languages/UK.png" alt="English" style="height:20px"></a>
+          <a class="language" href="index.html"><img class="lang" src="pictures/languages/LV.png" alt="Latvian" style="height:20px"></a>
+        </nav>
+      </header>
+    <body>
+        <div class="about">
+          <h1>Sveicināti piemājas zoo BRIEŽI!</h1>
+          <p>Piemājas zoo tika dibināts 2013.gadā. Piedāvajam Jums pavadīt lielisku dienu, kopā ar  ģimeni un draugiem apmeklējot piemājas zoodārzu pavisam netālu no  Rīgas. Šeit sastopami daudz un dažādi dekoratīvie putni, tītari, pīles, fazāni, pāvi un pat runājoša žagata, starp tiem dzīvo jūrascūciņas un truši. No četrkājainajiem draugiem te var sastapt Holandes pundurkaziņas, Haidšnukes aitas, Šetlandes ponijus, ēzeļu ģimeni, vāverēnus un jenotpuiku Bārniju. Zoo palīdz sargāt zosu bariņš un Peruāņu pundursivēns – Pigis. No 2015. gada Briežos dzīvo arī dambrieži un senākais pasaulē briedis Munžaks.</p>
+        </div>
+        <div class="pictureshow">
+          <div class="slideshow-container">
+            <div class="mySlides fade">
+              <div class="numbertext">1/4</div>
+              <img src="pictures/agate/image1.JPG" alt="peacock" style="width:100%">
+              <div class="text">Foto by Agate Utāne</div>
+            </div>
+            <div class="mySlides fade">
+              <div class="numbertext">2/4</div>
+              <img src="pictures/agate/image2.JPG" alt="rooster" style="width:100%">
+              <div class="text">Foto by Agate Utāne</div>
+            </div>
+            <div class="mySlides fade">
+              <div class="numbertext">3/4</div>
+              <img src="pictures/agate/image3.JPG" alt="deer1" style="width:100%">
+              <div class="text">Foto by Agate Utāne</div>
+            </div>
+            <div class="mySlides fade">
+              <div class="numbertext">4/4</div>
+              <img src="pictures/agate/image4.JPG" alt="deer2" style="width:100%">
+              <div class="text">Foto by Agate Utāne</div>
+            </div>
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+          </div>
+        </div>
+        <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+      function plusSlides(n) {
+      showSlides(slideIndex += n);
+      }
+      function currentSlide(n) {
+      showSlides(slideIndex = n);
+      }
+      function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      }
+    </script>
+    </body>
+    <footer>
+        <table class="footerinfo">
+          <tbody>
+            <tr>
+              <th id="address" style="width: 33%">Piemājas zoo "Brieži"<br>
+                Vālodzes, Stopiņu novads<br>
+                LV-2130</th>
+              <th id="phone" style="width: 33%">+371 22005519</th>
+              <th id="social" style="width: 33%">Seko mums: <a href="https://www.facebook.com/zoobriezi/" class="fa fa-facebook"></a></th>
+            </tr>
+          </tbody>
+        </table>
+      </footer>
+  </div>
 </html>
