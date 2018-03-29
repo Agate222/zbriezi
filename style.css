@@ -58,6 +58,13 @@ a.language:hover {
   }
 }*/
 /*style for photo slideshow in index page*/
+/* index grid style for about and slideshow*/
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
 /*index pictureshow style*/
 * {box-sizing: border-box;}
 body {
