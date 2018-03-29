@@ -70,6 +70,33 @@ a.language:hover {
   grid-column-start: 2;
   grid-column-end: 5;
 }
+/*another grid container style*/
+.another-grid-container {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-gap: 12px;
+  padding: 25px;
+  margin-bottom: -15px;
+}
+h2 {
+  font-family: 'Paytone One', sans-serif;
+  text-align: center;
+  margin-top: 5px;
+  font-size: 27px;
+}
+h2:hover {
+  color: purple;
+}
+.opening-hours {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 18px;
+}
+.cenas {
+  text-align: left;
+  margin: 0 auto;
+  font-size: 18px;
+}
 /*index body style*/
 body {
   background-color: rgba(0,36,0,1);
@@ -89,6 +116,15 @@ h1 {
   width: 525px;
   text-align: justify;
   line-height: 1.4;
+}
+.time, .prices, .news {
+  background-color: rgba(255,255,255,0.84);
+  border-radius: 12px;
+  padding: 3px 10px;
+  text-align: justify;
+  line-height: 1.4;
+  height: 300px;
+  margin-top: -30px;
 }
 /*index pictureshow style*/
 * {box-sizing: border-box;}

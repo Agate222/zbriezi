@@ -69,31 +69,94 @@
           </div>
         </div>
       </div>
+      <div class="another-grid-container">
+        <div class="time">
+          <h2>Darba laiks</h2>
+          <table class="opening-hours">
+            <tbody>
+              <tr>
+                <td>Pirmdiena</td>
+                <td>11:00 - 17:00</td>
+              </tr>
+              <tr>
+                <td>Otrdiena</td>
+                <td>11:00 - 17:00</td>
+              </tr>
+              <tr>
+                <td>Trešdiena</td>
+                <td>11:00 - 17:00</td>
+              </tr>
+              <tr>
+                <td>Ceturtdiena</td>
+                <td>11:00 - 17:00</td>
+              </tr>
+              <tr>
+                <td>Piektdiena</td>
+                <td>11:00 - 17:00</td>
+              </tr>
+              <tr>
+                <td>Sestdiena</td>
+                <td>10:00 - 18:00</td>
+              </tr>
+              <tr>
+                <td>Svētdiena</td>
+                <td>10:00 - 18:00</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="prices">
+          <h2>Cenrādis</h2>
+            <table class="cenas">
+              <tbody>
+                <tr>
+                  <td>Pieaugušajiem</td>
+                  <td>&euro;3.00</td>
+                </tr>
+                <tr>
+                  <td>Bērniem no 4 g.</td>
+                  <td>&euro;1.00</td>
+                </tr>
+                <tr>
+                  <td>Pensionāriem, studentiem</td>
+                  <td>&euro;2.00</td>
+                </tr>
+                <tr>
+                  <td>Ģimenēm</td>
+                  <td>&euro;7.00</td>
+                </tr>
+              </tbody>
+            </table>
+        </div>
+        <div class="news">
+          <h2>Jaunumi</h2>
+        </div>
+      </div>
       <script>
-      var slideIndex = 1;
-      showSlides(slideIndex);
-      function plusSlides(n) {
-      showSlides(slideIndex += n);
-      }
-      function currentSlide(n) {
-      showSlides(slideIndex = n);
-      }
-      function showSlides(n) {
-      var i;
-      var slides = document.getElementsByClassName("mySlides");
-      var dots = document.getElementsByClassName("dot");
-      if (n > slides.length) {slideIndex = 1}
-      if (n < 1) {slideIndex = slides.length}
-      for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-      }
-      for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-      }
-      slides[slideIndex-1].style.display = "block";
-      dots[slideIndex-1].className += " active";
-      }
-    </script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+        function plusSlides(n) {
+        showSlides(slideIndex += n);
+        }
+        function currentSlide(n) {
+        showSlides(slideIndex = n);
+        }
+        function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        }
+      </script>
     </body>
     <footer>
         <table class="footerinfo">
