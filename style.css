@@ -59,6 +59,7 @@ a.language:hover {
 }*/
 /*style for photo slideshow in index page*/
 /* index grid style for about and slideshow*/
+/* index grid style */
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto;
@@ -68,6 +69,26 @@ a.language:hover {
 .pictureshow {
   grid-column-start: 2;
   grid-column-end: 5;
+}
+/*index body style*/
+body {
+  background-color: rgba(0,36,0,1);
+  font-family: 'Roboto', sans-serif;
+}
+h1 {
+  font-family: 'Paytone One', sans-serif;
+  font-weight: normal;
+  text-align: left;
+  font-size: 31px;
+}
+.about {
+  background-color: rgba(255,255,255,0.84);
+  border-radius: 12px;
+  padding: 3px 10px;
+  height: 512px;
+  width: 525px;
+  text-align: justify;
+  line-height: 1.4;
 }
 /*index pictureshow style*/
 * {box-sizing: border-box;}
@@ -153,26 +174,6 @@ img {
 @media only screen and (max-width: 300px) {
   .prev, .next, .text {font-size: 11px}
 }
-/*index body style*/
-body {
-  background-color: rgba(0,36,0,1);
-  font-family: 'Roboto', sans-serif;
-}
-h1 {
-  font-family: 'Paytone One', sans-serif;
-  font-weight: normal;
-  text-align: left;
-  font-size: 31px;
-}
-.about {
-  background-color: rgba(255,255,255,0.84);
-  border-radius: 12px;
-  padding: 3px 10px;
-  height: 512px;
-  width: 525px;
-  text-align: justify;
-  line-height: 1.4;
-}
 /* footer positioned at bottom style*/
 *:before, *:after {
   box-sizing: border-box;
@@ -216,10 +217,25 @@ footer {
   text-align: right;
   font-weight: normal;
 }
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
 /* iemitnieki html style */
-/*.sidenav {
+.sidenav {
   height: 100%;
-  width: 160px;
+  width: 195px;
   position: fixed;
   z-index: 1;
   top 0;
@@ -239,15 +255,15 @@ footer {
   color: #f1f1f1;
 }
 .main {
-  margin-left: 160px;
+  margin-left: 195px;
   padding: 0px 10px;
 }
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
-}*/
+}
 /* buj html style*/
-/*.accordion {
+.accordion {
     background-color: #eee;
     color: #444;
     cursor: pointer;
@@ -259,11 +275,9 @@ footer {
     font-size: 15px;
     transition: 0.4s;
 }
-
 .active, .accordion:hover {
     background-color: #ccc;
 }
-
 .panel {
     padding: 0 18px;
     background-color: white;
@@ -271,38 +285,3 @@ footer {
     max-height: 0;
     transition: max-height 0.2s ease-out;
 }
-.accordion:after {
-  content: '\02795';
-  font-size: 13px;
-  color: #777;
-  float: right;
-  margin-left: 5px;
-}
-.active:after {
-  content: "\2796";
-}*/
-/*social button style*/
-.fa {
-  padding: 10px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
-}
-.fa:hover {
-  opacity: 0.7;
-}
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-/* grid style*/
-/*.about {
-  width: 25%;
-  float: left;
-}
-.slideshow-container {
-  width: 75%;
-  float: left;
-}*/
