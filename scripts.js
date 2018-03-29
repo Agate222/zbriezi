@@ -24,3 +24,18 @@ dots[i].className = dots[i].className.replace(" active", "");
 slides[slideIndex-1].style.display = "block";
 dots[slideIndex-1].className += " active";
 }
+/* buj html java*/
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    });
+}
